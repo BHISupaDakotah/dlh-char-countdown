@@ -1,0 +1,35 @@
+body {
+  background: lightsteelblue;
+  font-family: "Dancing Script", cursive;
+}
+
+.countdown-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.countdown-wrapper .cd-title {
+  font-size: 16vh;
+}
+.countdown-wrapper .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.countdown-wrapper .input-wrapper #charLimit {
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
+  color: darkgrey;
+  width: 25%;
+  padding: 0.5%;
+  outline: none;
+  border-radius: 2%;
+  border: none;
+  background: whitesmoke;
+}
+.countdown-wrapper .input-wrapper .char-count-wrapper {
+  font-size: 10vh;
+}/*# sourceMappingURL=char.css.map */
